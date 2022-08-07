@@ -85,6 +85,7 @@ function uploadTransaction() {
                     alert('All saved transactions has been submitted!');
                 })
                 .catch(err => {
+                    console.log('fetcherror');
                     console.log(err);
                 });
         }
